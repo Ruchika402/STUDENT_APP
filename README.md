@@ -36,54 +36,55 @@ The project was built step by step as part of learning Django core concepts.
 
 
 2.Go to the project directory:
-
+```bash
 cd STUDENT_APP
 
 
 3.Go inside the Django project folder:
-
+```bash
 cd student_info
 
 
 4.Create a virtual environment:
-
+```bash
 python -m venv .venv
 
 
 5.Activate the virtual environment:
 
 On Windows:
-
+```bash
 .venv\Scripts\activate
 
 
 On macOS / Linux:
-
+```bash
 source .venv/bin/activate
 
 
 6.Install Django:
-
+```bash
 pip install django
 
 
 7.Apply database migrations:
-
+```bash
 python manage.py migrate
 
 
 8.Create a superuser (for admin access):
-
+```bash
 python manage.py createsuperuser
 
 
 9.Run the development server:
-
+```bash
 python manage.py runserver
 
 
 10.Open the project in browser:
-
+```bash
 http://127.0.0.1:8000/
+
 
 
